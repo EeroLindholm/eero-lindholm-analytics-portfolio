@@ -1,6 +1,5 @@
 **Mining Investment Analysis (NPV-Based Decision Support)**
-#
-This project implements an NPV-based investment analysis model for a gold mining project, designed to support decision-making between alternative production plans.
-The model evaluates different production scenarios by computing year-by-year cash flows and discounting them to present value. Key inputs include production volumes, ore grades, operating costs, capital expenditures, taxes, and royalties. All calculations are performed using MATLAB, with Simulink used to model the project timeline and cash flow dynamics.
-The analysis enables a consistent comparison of alternative investment options under identical economic assumptions, allowing decision-makers to identify the production plan that maximizes economic value.
-All financial logic, simulations, and implementations in this project were fully designed and implemented by me.
+
+This project focuses on evaluating the economic feasibility of alternative gold mining production plans using discounted cash flow and NPV analysis. I was provided with Excel files containing the production profiles, cost assumptions, gold prices and other financial inputs for each scenario, which serve as the basis for the cash flow calculations and comparison.
+
+The implementation is done in MATLAB and Simulink. The MATLAB script reads the given Excel data, constructs year-by-year cash flows for each production plan and discounts them to present value to obtain NPVs, while the Simulink model represents the project timeline and cash flow dynamics. All code and models in this repository were designed and implemented by me.
